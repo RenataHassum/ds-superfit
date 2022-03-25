@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+	color: unset;
+}
+
+:root {
+	--bg-gray: #ccc;
+	--bg-footer: #000;
+	--bg-blue: #222374;
+	--text-white: #fff;
+	--text-black: #000;
+	--color-red: #f03c42;
+}
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.mg-top {
+	margin-top: 20px;
+}
+
+/* Header */
+.nav-bg {
+	background-color: var(--color-red);
+	color: var(--text-white);
+	height: 100px;
+}
+
+.nav-container {
+	padding: 35px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-menu a {
+	display: flex;
+	align-items: center;
+}
+
+.nav-menu img {
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+/* Section-fitness */
+.fitness-bg {
+	background-color: var(--bg-blue);
+}
+
+.fitness-container {
+	padding: 20px 10px 40px 10px;
+}
+
+.fitness-container h2 {
+	margin-bottom: 40px;
+	font-size: 32px;
+	color: var(--text-white);
+}
+
+.fitness-description {
+	background-color: var(--bg-gray);
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.fitness-description h3 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.fitness-description p {
+	font-size: 14px;
+}
+
+/* Section-sports */
+.sports-container {
+	padding: 20px 10px 40px 10px;
+}
+
+.sports-container h2 {
+	color: var(--color-red);
+	font-size: 32px;
+	margin-bottom: 40px;
+}
+
+.sports-description {
+	background-color: var(--bg-blue);
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.sports-description h3 {
+	font-size: 20px;
+	color: var(--text-white);
+	margin-bottom: 20px;
+}
+
+.sports-description p {
+	font-size: 14px;
+	color: var(--text-white);
+}
+
+/* Footer */
+.footer-bg {
+	background-color: #000;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: var(--text-white);
+	padding: 65px 10px;
+	gap: 30px;
+}
+
+.footer-social-midia {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.footer-social-midia a {
+	display: flex;
+	align-items: center;
+}
+
+.footer-social-midia img {
+	margin-right: 10px;
+}
+
+.footer-description {
+	text-align: center;
+}
